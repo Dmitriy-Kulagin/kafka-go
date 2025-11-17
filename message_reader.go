@@ -292,6 +292,9 @@ func (r *messageSetReader) readMessageV2(_ int64, key readBytesFunc, val readByt
 			// stack. here we set the parent count to 0 so that when the child set is exhausted, the
 			// reader will then try to read the header of the next message set
 			r.readerStack.parent.count = 0
+			// lengthRemain have to be adjusted to length of decompressed data
+			// otherwise we can end up with negative lengthRemain that will fail the check into batch.go:readMessage:283, that leads to endlessly reading the same compacted batch
+			r.lengthRemain = r.remain
 		}
 	}
 	remainBefore := r.remain
