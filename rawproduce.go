@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/segmentio/kafka-go/protocol"
-	produceAPI "github.com/segmentio/kafka-go/protocol/produce"
-	"github.com/segmentio/kafka-go/protocol/rawproduce"
+	"github.com/Dmitriy-Kulagin/kafka-go/protocol"
+	produceAPI "github.com/Dmitriy-Kulagin/kafka-go/protocol/produce"
+	"github.com/Dmitriy-Kulagin/kafka-go/protocol/rawproduce"
 )
 
 // RawProduceRequest represents a request sent to a kafka broker to produce records

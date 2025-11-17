@@ -8,7 +8,7 @@ jobs:
       - run: golangci-lint run
 
   kafka-270:
-    working_directory: &working_directory /go/src/github.com/segmentio/kafka-go
+    working_directory: &working_directory /go/src/github.com/Dmitriy-Kulagin/kafka-go
     environment:
       KAFKA_VERSION: "2.7.0"
 
@@ -141,7 +141,7 @@ jobs:
 
   # NOTE: this fails quite often due to Java heap errors from Kafka.
   # Once we figure out how to fix that, we can re-enable this.
-  # https://github.com/segmentio/kafka-go/issues/1360#issuecomment-2858935900
+  # https://github.com/Dmitriy-Kulagin/kafka-go/issues/1360#issuecomment-2858935900
   # kafka-400:
   #   working_directory: *working_directory
   #   environment:

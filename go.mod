@@ -1,4 +1,4 @@
-module github.com/segmentio/kafka-go
+module github.com/Dmitriy-Kulagin/kafka-go
 
 go 1.23
 

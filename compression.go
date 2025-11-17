@@ -3,7 +3,7 @@ package kafka
 import (
 	"errors"
 
-	"github.com/segmentio/kafka-go/compress"
+	"github.com/Dmitriy-Kulagin/kafka-go/compress"
 )
 
 type Compression = compress.Compression

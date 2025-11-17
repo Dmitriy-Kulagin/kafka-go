@@ -3,7 +3,7 @@ package listoffsets
 import (
 	"sort"
 
-	"github.com/segmentio/kafka-go/protocol"
+	"github.com/Dmitriy-Kulagin/kafka-go/protocol"
 )
 
 func init() {

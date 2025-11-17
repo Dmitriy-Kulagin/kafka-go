@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/aws/aws-sdk-go-v2/config"
-	"github.com/segmentio/kafka-go"
-	"github.com/segmentio/kafka-go/sasl/aws_msk_iam_v2"
+	"github.com/Dmitriy-Kulagin/kafka-go"
+	"github.com/Dmitriy-Kulagin/kafka-go/sasl/aws_msk_iam_v2"
 )
 
 func main() {

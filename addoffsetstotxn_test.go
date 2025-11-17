@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	ktesting "github.com/segmentio/kafka-go/testing"
+	ktesting "github.com/Dmitriy-Kulagin/kafka-go/testing"
 )
 
 func TestClientAddOffsetsToTxn(t *testing.T) {

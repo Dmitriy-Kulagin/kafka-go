@@ -3,8 +3,8 @@ package heartbeat_test
 import (
 	"testing"
 
-	"github.com/segmentio/kafka-go/protocol/heartbeat"
-	"github.com/segmentio/kafka-go/protocol/prototest"
+	"github.com/Dmitriy-Kulagin/kafka-go/protocol/heartbeat"
+	"github.com/Dmitriy-Kulagin/kafka-go/protocol/prototest"
 )
 
 func TestHeartbeatRequest(t *testing.T) {
